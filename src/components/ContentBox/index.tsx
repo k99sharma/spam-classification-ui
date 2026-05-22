@@ -14,7 +14,7 @@ function ContentBox() {
   const [loading, setLoading] = useState<boolean>(false);
 
   // handle analyze button
-  const handleAnalyze = async (e) => {
+  const handleAnalyze = async (e: React.MouseEvent<HTMLButtonElement>) => {
     try {
       e.preventDefault();
 
