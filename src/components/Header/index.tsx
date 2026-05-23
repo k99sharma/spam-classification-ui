@@ -7,7 +7,9 @@ function Header() {
         <img width={80} height={80} src={imgSrc} alt="header icon" />
       </div>
 
-      <div className="text-3xl font-semibold">AI-Powered Spam Detection</div>
+      <div className="text-lg md:text-3xl font-semibold">
+        AI-Powered Spam Detection
+      </div>
     </div>
   );
 }
