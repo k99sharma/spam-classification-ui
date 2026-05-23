@@ -13,7 +13,7 @@ function App() {
         }
       />
 
-      <div className="app p-3 bg-neutral-200 h-screen">
+      <div className="app p-3 bg-zinc-100 h-screen">
         <div className="app__navbar">
           <Navbar />
         </div>

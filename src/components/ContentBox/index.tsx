@@ -65,6 +65,7 @@ function ContentBox() {
     <>
       <div className="contentBox w-4/5 mb-5">
         <TextArea
+          className="contentBox__input shadow-lg"
           value={text}
           onChange={(e) => setText(e.target.value)}
           placeholder="Paste your email content here ..."
